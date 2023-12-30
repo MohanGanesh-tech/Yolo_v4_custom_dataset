@@ -1,0 +1,2 @@
+darknet.exe detector test data/obj.data cfg/yolov4-obj.cfg backup/yolov4-obj_last.weights data/johnwicker.jpg -thresh 0.25
+darknet.exe detector test data/obj.data cfg/yolov4-obj.cfg backup/yolov4-obj_last.weights cfg/coco.data cfg/yolov4.cfg yolov4.weights data/johnwicker.jpg -thresh 0.25
